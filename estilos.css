@@ -1,0 +1,39 @@
+
+p{
+    font-family: 'Bebas Neue', cursive;
+    margin: 6rem;
+    font-size: 1.5rem;
+}
+
+hr{
+    margin-bottom: -1.4rem;
+}
+
+
+
+#logoMoog{
+    width: 90%;
+    height: 90%;
+    margin-right: -41rem;
+}
+
+.contenedor-parrafo{
+    margin-top: 3rem;
+    box-shadow: 3rem;
+}
+
+.contenedor-imgWaveForm{
+    margin-top: 4rem;
+}
+
+.contenedor-titulo{
+   margin-top: 4rem;
+}
+
+.imgWaveForm{
+    width: 100%;
+}
+
+.imgTitulo{
+    width: 70%;
+}
