@@ -2,15 +2,18 @@ class Sintetizador{
     #modelo = "modelo por defecto";
     #marca = "Moog";
     #anioDeFabricacion = "anio de fabricación del sinte";
+    #foto = ""
 
     /**
      * 
-     * @param {String} modelo 
-     * @param {Number} anio 
+     * @param {String} modelo del sinte
+     * @param {Number} anio de fabriación
+     * @param {String} foto del sinte 
      */
-    constructor (modelo,anio){
+    constructor (modelo,anio,foto){
         this.#modelo = modelo;
         this.#anioDeFabricacion = anio;
+        this.#foto = foto;
     }
 
     getModelo(){
@@ -19,6 +22,10 @@ class Sintetizador{
 
     getAnioDeFabricacion(){
         return this.#anioDeFabricacion;
+    }
+
+    getFotoDelSinte(){
+        return this.#foto;
     }
 }
 
