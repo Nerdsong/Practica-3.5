@@ -7,7 +7,7 @@ class Sintetizador{
     /**
      * 
      * @param {String} modelo del sinte
-     * @param {Number} anio de fabriación
+     * @param {String} anio de fabriación
      * @param {String} foto del sinte 
      */
     constructor (modelo,anio,foto){

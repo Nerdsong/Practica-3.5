@@ -11,10 +11,10 @@ class Tarjeta {
  * @param {String} descripcion de la tarjeta
  */
 
-    constructor (titulo,imagen,descripcion){
+    constructor (titulo,descripcion,imagen){
         this.#titulo= titulo;
         this.#imagen= imagen;
-        this.#descripcion = descripcion
+        this.#descripcion = descripcion;
     }
 
 

@@ -1,4 +1,4 @@
-import { ContenedorTarjetas } from "./contenedorTarjetas.js";
+import { ContenedorTarjetas } from "./ContenedorTarjetas.js";
 import { listadoSintetizador } from "./listadoSintetizadores.js";
 
 console.log(`este ${listadoSintetizador}`);

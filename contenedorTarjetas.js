@@ -47,7 +47,7 @@ generadorTarjetasHtml(){
 
 
 agregarInfoALasTarjetas(listaContenido){
-    for(let i = 0 ; i <= listaContenido.length; i++){
+    for(let i = 0 ; i < listaContenido.length; i++){
         this.#tarjetas.push(
             new Tarjeta(
                 listaContenido[i].getModelo(),
