@@ -1,9 +1,9 @@
-import { ContenedorTarjetas } from "./ContenedorTarjetas.js";
-import { listadoSintetizador } from "./listadoSintetizadores.js";
+import { ContenedorTarjetasSintetizador } from "./ContenedorTarjetasSintetizador.js";
+import { listadoSintetizador } from "./listados/listadoSintetizadores.js";
 
 console.log(`este ${listadoSintetizador}`);
 
-const ContenedorTarjetasSintetizadores = new ContenedorTarjetas("#contenedor-cartas") 
+const ContenedorTarjetasSintetizadores = new ContenedorTarjetasSintetizador("#contenedor-cartas") 
 
 ContenedorTarjetasSintetizadores.agregarTarjetasALaAppCon(listadoSintetizador);
 

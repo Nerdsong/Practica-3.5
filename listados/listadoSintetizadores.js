@@ -1,4 +1,4 @@
-import { Sintetizador } from "./sintetizador.js";
+import { Sintetizador } from "../classesdeElementosBasicos/Sintetizador.js";
 
 let listadoSintetizador = [
     new Sintetizador (

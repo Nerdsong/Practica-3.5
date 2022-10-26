@@ -45,7 +45,7 @@ generadorTarjetasHtml(){
 }
 
 
-
+/** 
 agregarInfoALasTarjetas(listaContenido){
     for(let i = 0 ; i < listaContenido.length; i++){
         this.#tarjetas.push(
@@ -57,7 +57,24 @@ agregarInfoALasTarjetas(listaContenido){
         ); 
     }
 }
+*/
 
+agregarInfoALasTarjetas(listaContenido){ 
+    //alert("esto es un comportamiento abstracto - ")
+    for (let i = 0; i < listaContenido.length; i++) {
+        this.#tarjetas.push(
+            this.crearTarjetaCon(listaContenido[i])
+        );        
+    } 
+}
+
+/**
+     * Construye una tarjeta con la info recibida
+     * @param {Object} info para construir la tarjeta
+     */
+ crearTarjetaCon(info){
+    alert("creacion de tarjeta fallo - comportamiento abstracto");
+}
 }
 
 export {ContenedorTarjetas};

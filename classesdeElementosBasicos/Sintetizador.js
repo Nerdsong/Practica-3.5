@@ -9,11 +9,13 @@ class Sintetizador{
      * @param {String} modelo del sinte
      * @param {String} anio de fabriación
      * @param {String} foto del sinte 
+     * @param {String} marca
      */
-    constructor (modelo,anio,foto){
+    constructor (modelo,anio,foto,marca){
         this.#modelo = modelo;
         this.#anioDeFabricacion = anio;
         this.#foto = foto;
+        this.#marca = marca;
     }
 
     getModelo(){
