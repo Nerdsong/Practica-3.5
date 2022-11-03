@@ -1,5 +1,5 @@
 import { ContenedorTarjetas } from "./ContenedorTarjetas.js";
-import { TarjetaSintetizador } from "./tarjetaSintetizador.js";
+import { TarjetaSintetizador } from "./TarjetaSintetizador.js";
 import { Sintetizador } from "./classesdeElementosBasicos/Sintetizador.js";
 
 class ContenedorTarjetasSintetizador extends ContenedorTarjetas {
