@@ -1,4 +1,4 @@
-import { Tarjeta } from "./Tarjeta.js";
+import { Tarjeta } from "./Tarjetas.js";
 
 class TarjetaSintetizador extends Tarjeta {
     constructor(titulo, descripcion, imagen){
