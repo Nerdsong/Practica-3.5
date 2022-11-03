@@ -1,4 +1,4 @@
-import { Tarjeta } from "./Tarjetas.js";
+
 
 class ContenedorTarjetas{
     #idContenedor = "definir id";
