@@ -4,7 +4,7 @@ let listadoSintetizador = [
     new Sintetizador (
         "Grandmother",
         "2018",
-        "../imagenes/imagenesModelos/Moog_Grandmother.png"
+        "imagenes/imagenesModelos/Moog_Grandmother.png"
     ),
 
     new Sintetizador (
